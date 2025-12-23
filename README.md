@@ -1,6 +1,11 @@
 # PER-C: Prioritized Experience Replay Buffer
 
-PER-C is a simple and naive implementation of a Prioritized Experience Replay (PER) buffer, accelerated with a Sum Tree. Replay buffers are a critical component in reinforcement learning applications, and this project aims to address performance bottlenecks caused by Python's inherent slowness.
+PER-C is a simple and naive implementation of a Prioritized Experience Replay (PER) buffer, accelerated with a Sum Tree. This appeared to me as weekend project since the replay buffers are a critical component in reinforcement learning applications. This project aims to address performance bottlenecks caused by Python's obvious slowness. I am not claiming that this is the fastest implementation but maybe someone will see it and use the code as a starting point or this code will spark some ideas to push the RL in the direction of efficient implementation along side model and method research.
+
+- We have enough scientists.
+- We have enough visionares.
+- We have enough compute power.
+- But lacking true engineers.
 
 ---
 
