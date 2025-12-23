@@ -1,3 +1,6 @@
+#ifndef HEADER_PER_H
+#define HEADER_PER_H
+
 #include <assert.h>
 #include <inttypes.h>
 #include <math.h>
@@ -10,7 +13,6 @@
 #define NOB_IMPLEMENTATION
 #define NOB_STRIP_PREFIX
 
-#include "nob.h"
 #include "sum_tree.h"
 
 #define EPS 1e-6
@@ -175,3 +177,5 @@ void show_batch(Batch *batch) {
         printf("%zu %f\n", batch->items[idx].d_idx, batch->importance_weights[idx]);
     }
 }
+
+#endif // HEADER_PER_H

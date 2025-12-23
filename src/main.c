@@ -10,7 +10,9 @@
 #define NOB_IMPLEMENTATION
 #define NOB_STRIP_PREFIX
 
-#include "../header/per.h"
+// #include "../header/per.h"
+#include "../header/per_single_h.h"
+#include "../header/nob.h"
 
 void test_sum_tree() {
     srand((unsigned int)time(NULL));
