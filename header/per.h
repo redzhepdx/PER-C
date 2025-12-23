@@ -97,7 +97,7 @@ void calculate_sampling_priorities(const Batch *batch, double *out_importance_we
             max_importance_weight = w;
     }
 
-    // 2) normalise once (guard against divide-by-zero)
+    // Normalise once - guard against division by zero
     if (max_importance_weight <= 0.0) {
         // all weights are 0 already
         return;
