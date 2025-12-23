@@ -53,7 +53,7 @@ Ensure you have a C compiler installed, such as `gcc` or `clang`.
 
 ## What’s Next?
 
-- [X] Convert to a single-header library for easier integration.
+- [X] Convert to a single-header library for easier integration. (`per_single_h.h`)
 - [ ] Add Python bindings (likely as a separate library).
 - [ ] Implement further optimizations for better performance.
 
