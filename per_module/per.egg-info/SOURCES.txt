@@ -1,7 +1,0 @@
-per.c
-pyproject.toml
-setup.py
-per.egg-info/PKG-INFO
-per.egg-info/SOURCES.txt
-per.egg-info/dependency_links.txt
-per.egg-info/top_level.txt
